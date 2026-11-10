@@ -5,7 +5,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-do--hoang--tuan--anh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/do-hoang-tuan-anh/)
 [![Email](https://img.shields.io/badge/Email-anh.dht3772%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:anh.dht3772@gmail.com)
-[![Certifications](https://img.shields.io/badge/Certifications-ISTQB%C2%AE_%7C_Claude_API-4B5563?style=flat-square)](https://www.linkedin.com/in/do-hoang-tuan-anh/details/certifications/)
+[![Certifications](https://img.shields.io/badge/Certifications-ISTQB%C2%AE_%7C_Claude_API-374151?style=flat-square)](https://www.linkedin.com/in/do-hoang-tuan-anh/details/certifications/)
 
 [English](./README.md) | **Tiếng Việt**
 
@@ -13,75 +13,54 @@
 
 ---
 
-## Giới thiệu ngắn
+Mình có **hơn 8 năm kinh nghiệm trong mảng Software QA & Test Automation** (bắt đầu từ **LogiGear** và **TMA Solutions** năm 2018, và làm việc tại **Rakus Vietnam** từ năm 2021 đến nay).
 
-Mình làm QA/Testing từ đầu năm 2018 (bắt đầu từ **LogiGear**, qua **TMA Solutions** và gắn bó hơn 5 năm nay tại **Rakus Vietnam**).
+Công việc chính của mình là thiết kế và duy trì các bộ E2E Automation Framework (**Playwright**, **Cypress**, **Selenide**, **Appium**), kiểm thử bảo mật (**VEX testing**) cho các hệ thống B2B SaaS tải lớn tại thị trường Nhật Bản, và đưa các công cụ **AI** (**Claude API**, **Claude Code**, **Antigravity**, **Cursor**) vào giải quyết các bài toán thực tế trong quy trình kiểm thử.
 
-Công việc hàng ngày của mình xoay quanh việc xây dựng và giữ cho các bộ test automation chạy ổn định (hiện tại chủ yếu dùng **Playwright** và **Cypress** với TypeScript; trước đó là **Java/Selenide**, **Puppeteer** và **C#/.NET**), kiểm thử bảo mật (**VEX testing**) cho các hệ thống B2B SaaS tại thị trường Nhật Bản, và hướng dẫn các bạn Manual QA trong team chuyển dần sang viết code automation.
+<div align="center">
 
-Thời gian gần đây mình tập trung nhiều vào việc đưa các công cụ AI (**Claude Code**, **Claude API**, **Antigravity**, **Cursor**, **Ollama**) vào quy trình test thực tế — từ việc tự động hóa viết test case, giảm thời gian sửa test khi UI thay đổi, cho đến tinh chỉnh lại hệ điều hành/mạng trên Windows để chạy E2E song song mà không bị nghẽn port hay đụng độ với VPN công ty.
+| **8+ Năm Kinh Nghiệm** | **-30% Thời Gian Regression** | **+25% Tốc Độ Bàn Giao E2E** | **Mentor ~10 Kỹ Sư QA** |
+| :---: | :---: | :---: | :---: |
+| Thực chiến qua Web, Mobile, API & B2B SaaS | Nhờ thay thế các bước test lặp lại bằng Automation Framework | Nâng cao độ ổn định của bản build và tốc độ release giữa các squad | Hướng dẫn Manual QA làm chủ TypeScript & Prompt (+40% hiệu suất cả đội) |
 
-### Một vài kết quả thực tế trong công việc:
-- **Giảm ~30% thời gian chạy Regression Test** nhờ việc chuẩn hóa và đưa các kịch bản lặp đi lặp lại vào Automation Framework.
-- **Tăng ~25% tốc độ bàn giao ở các dự án E2E**, giữ chất lượng bản phát hành ổn định cho khách hàng doanh nghiệp Nhật.
-- **Trực tiếp kèm cặp (mentor) ~10 bạn Manual QA** làm quen với TypeScript và cách dùng prompt/AI trong công việc, giúp hiệu suất chung của cả đội tăng khoảng **40%**.
-
----
-
-## Công cụ & Ngôn ngữ sử dụng
-
-| Mảng công việc | Công cụ & Ngôn ngữ |
-| :--- | :--- |
-| **Web & Mobile Automation** | Playwright, Cypress, Selenide, Selenium, Appium, Puppeteer, Mocha & Chai |
-| **API, Load & Security** | Postman, Apache JMeter (CLI / Non-GUI), VEX Security Testing, Risk-Based Testing |
-| **Ngôn ngữ lập trình** | TypeScript, JavaScript, Java, C# (.NET), PowerShell, Python, Google Apps Script |
-| **AI & Agent Tooling** | Claude API, Claude Code, Antigravity, Cursor, Ollama, phương pháp kiểm thử ISTQB CT-AI |
-| **CI/CD & Môi trường** | GitHub Actions, Jenkins, Docker, WSL2, Git, Maven, Windows 10/11 |
+</div>
 
 ---
 
-## Quá trình làm việc
+## Dự Án & Mã Nguồn Tiêu Biểu Trên GitHub
 
-### **Rakus Vietnam Co., Ltd** *(04/2021 – Hiện tại)*
-- **Principal Test Engineer** *(11/2025 – Hiện tại)*
-  - Chuyển đổi các bộ test cũ sang **Playwright** và **Cypress** (TypeScript), thống nhất chuẩn viết code test giữa các squad.
-  - Thử nghiệm và áp dụng AI vào việc sinh test case, tự động sửa locator (self-healing) và phân tích log lỗi.
-  - Hướng dẫn kỹ thuật cho các thành viên QA trong công ty.
-- **Senior Software QA Engineer** *(05/2022 – 11/2025)*
-  - **R-Denshihozon & R-Meisai** *(Hệ thống lưu trữ chứng từ & Hóa đơn điện tử)*: Xây dựng E2E test bằng TypeScript + Cypress; phụ trách test tải đồng thời (concurrency), update và kiểm thử lỗ hổng bảo mật (VEX).
-  - **Mail Dealer** *(Hệ thống Email doanh nghiệp — Team 11 người)*: Duy trì và mở rộng bộ regression test bằng Java + Selenide.
-  - **Chat Dealer** *(Ứng dụng Web Chatbot)*: Viết automation test bằng JavaScript, Mocha, Chai, Puppeteer; viết thêm công cụ bằng Google Apps Script để tự động đối chiếu dữ liệu dưới Database.
-- **Middle Software QA Engineer** *(04/2021 – 04/2022)*
-  - Phụ trách toàn bộ khâu test (module, integration, cross-browser, VEX security) và làm automation cho dự án **Chat Dealer**.
-
-### **TMA Solutions** *(07/2018 – 03/2021)*
-- **Middle Software QA Engineer**
-  - Tham gia các dự án phần mềm Quản trị rủi ro & Sự cố vận hành (**Control of Work / Sphera**, **Pink Squad**, **IMPACT**).
-  - Dẫn dắt nhóm 4 QA, làm việc trực tiếp với QA Account Manager phía khách hàng, và viết kịch bản UI/API automation bằng C# / .NET.
-
-### **LogiGear Corporation** *(01/2018 – 06/2018)*
-- **Fresher QA Engineer**
-  - Thực hiện kiểm thử chức năng và regression automation cho dự án **Halliburton**.
+| Dự án | Bài toán thực tế & Cách giải quyết | Công nghệ |
+| :--- | :--- | :--- |
+| **[agentic-workstation-optimizer](https://github.com/AlexDo96/agentic-workstation-optimizer)**<br/>*Windows/Network Toolkit & AI Agent Skill* | Khi chạy song song nhiều luồng E2E (Playwright/Appium) cùng với các công cụ AI CLI trên máy Windows công ty (có VPN/Proxy), máy rất hay bị cạn cổng TCP tạm thời (ephemeral ports), lỗi SSL và mạng WSL2 bị chậm.<br/>→ Mình viết bộ script PowerShell (tích hợp sẵn AI Agent Skill) để tinh chỉnh cấu hình OS/mạng an toàn, có tự động backup và khôi phục (rollback) bằng 1 lệnh (`-Mode Work` / `-Mode All`). | `PowerShell`<br/>`Windows Internals`<br/>`WSL2` · `Ollama`<br/>`Claude Code` |
+| **[Playwright_E2E](https://github.com/AlexDo96/Playwright_E2E)** & **[Playwright_QA](https://github.com/AlexDo96/Playwright_QA)**<br/>*Web E2E Test Architecture* | Giữ cho bộ UI test dễ đọc, dễ sửa khi sản phẩm mở rộng.<br/>→ Tổ chức code theo Page Object Model (`BasePage`, tách riêng phần xử lý Modal, và cấu hình `global-setup`), hỗ trợ chạy đa trình duyệt (Chromium, Firefox, WebKit). | `TypeScript`<br/>`Playwright`<br/>`Node.js` |
+| **[Appium_E-Commerce](https://github.com/AlexDo96/Appium_E-Commerce)**<br/>*Mobile Automation Suite* | Tự động hóa luồng mua sắm trên ứng dụng di động Android.<br/>→ Bao phủ luồng người dùng đầu-cuối, chuyển đổi ngữ cảnh Native/Hybrid, xử lý thao tác vuốt/chạm (gestures) và quản lý driver tập trung. | `Java`<br/>`Appium`<br/>`Maven` |
+| **[API_Testing_QA](https://github.com/AlexDo96/API_Testing_QA)**<br/>*API Contract & Workflow Tests* | Kiểm tra logic hệ thống qua API trước khi ghép nối giao diện.<br/>→ Bộ test Postman áp dụng kỹ thuật nối chuỗi request (request chaining), biến môi trường động, kiểm tra JSON schema và các kịch bản lỗi/biên. | `Postman`<br/>`JavaScript`<br/>`REST API` |
 
 ---
 
-## Một số Repo cá nhân trên GitHub
+## Công Cụ & Kỹ Năng Chuyên Môn
 
-- **[agentic-workstation-optimizer](https://github.com/AlexDo96/agentic-workstation-optimizer)** *(PowerShell)*  
-  Khi vừa chạy nhiều luồng Playwright/Appium vừa dùng các công cụ AI CLI trên máy Windows công ty (có VPN/Proxy), máy rất hay bị hết cổng TCP tạm thời (ephemeral ports), lỗi SSL hoặc mạng WSL2 bị chậm. Mình viết bộ script này để tự động tinh chỉnh lại cấu hình mạng/phần cứng Windows, có sẵn chế độ tự động backup và khôi phục (rollback) về nguyên trạng chỉ bằng 1 câu lệnh.
-
-- **[Playwright_E2E](https://github.com/AlexDo96/Playwright_E2E) & [Playwright_QA](https://github.com/AlexDo96/Playwright_QA)** *(TypeScript)*  
-  Project mẫu thể hiện cách mình tổ chức một bộ test Playwright theo Page Object Model (`BasePage`, tách riêng phần xử lý Modal, và cấu hình `global-setup`).
-
-- **[Appium_E-Commerce](https://github.com/AlexDo96/Appium_E-Commerce)** *(Java / Maven)*  
-  Project tự động hóa kiểm thử ứng dụng Android cho luồng mua sắm E-Commerce.
-
-- **[API_Testing_QA](https://github.com/AlexDo96/API_Testing_QA)** *(Postman)*  
-  Bộ test API sử dụng biến môi trường động, truyền dữ liệu nối tiếp giữa các request (chaining) và kiểm tra cấu trúc JSON trả về.
+- **Test Automation (Web & Mobile)**: Playwright, Cypress, Selenide, Selenium, Appium, Puppeteer, Mocha & Chai
+- **API, Performance & Security**: Postman, Apache JMeter (chạy tải bằng CLI / Non-GUI), VEX Security Testing, Concurrency & Risk-Based Testing
+- **Ngôn ngữ lập trình**: TypeScript, JavaScript, Java, C# (.NET), PowerShell, Python, Google Apps Script
+- **Ứng dụng AI trong QA**: Claude API, Claude Code, Antigravity, Cursor, Local LLMs (`Ollama`), phương pháp kiểm thử ISTQB CT-AI (hỗ trợ sinh test case, tự động sửa locator, phân tích log lỗi)
+- **CI/CD & Môi trường**: GitHub Actions, Jenkins, Docker, WSL2, Git, Maven, Windows 10/11
 
 ---
 
-## Chứng chỉ & Học vấn
+## Tóm Tắt Quá Trình Làm Việc
+
+| Giai đoạn | Vị trí & Công ty | Sản phẩm & Công việc chính |
+| :--- | :--- | :--- |
+| **2021 – Hiện tại**<br/>*(Hơn 5 năm)* | **Principal Test Engineer** *(2025–Nay)*<br/>**Senior / Middle QA Engineer** *(2021–2025)*<br/>**Rakus Vietnam Co., Ltd** | • Định hình kiến trúc test với **Playwright & Cypress (TypeScript)** và nghiên cứu ứng dụng AI vào quy trình test cho các squad.<br/>• **R-Denshihozon & R-Meisai** *(Lưu trữ chứng từ & Hóa đơn điện tử)*: Viết E2E bằng TypeScript/Cypress, test tải đồng thời (concurrency) và kiểm thử bảo mật VEX.<br/>• **Mail Dealer** *(Email doanh nghiệp)*: Mở rộng bộ regression test với Java + Selenide.<br/>• **Chat Dealer** *(Web Chatbot)*: Viết E2E bằng JS/Puppeteer/Mocha & tự động hóa đối chiếu DB bằng Google Apps Script. |
+| **2018 – 2021**<br/>*(2 năm 9 tháng)* | **Middle Software QA Engineer**<br/>**TMA Solutions** | • Dẫn dắt nhóm 4 QA cho các hệ thống Quản trị rủi ro & Sự cố vận hành (**Control of Work / Sphera**, **Pink Squad**, **IMPACT**).<br/>• Viết kịch bản UI/API automation bằng **C# / .NET**, thực hiện test hiệu năng và kiểm thử triển khai (deployment). |
+| **2018**<br/>*(6 tháng)* | **Fresher QA Engineer**<br/>**LogiGear Corporation** | • Kiểm thử chức năng và tự động hóa regression test cho dự án **Halliburton**. |
+
+> *Chi tiết từng dự án có thể xem đầy đủ trên [trang LinkedIn của mình](https://www.linkedin.com/in/do-hoang-tuan-anh/).*
+
+---
+
+## Chứng Chỉ & Học Vấn
 
 - **ISTQB® Certified Tester** — Foundation Level Agile Tester (CTFL-AT)
 - **Certified Tester** — Mobile Automation Testing

@@ -5,7 +5,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-do--hoang--tuan--anh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/do-hoang-tuan-anh/)
 [![Email](https://img.shields.io/badge/Email-anh.dht3772%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:anh.dht3772@gmail.com)
-[![Certifications](https://img.shields.io/badge/Certifications-ISTQB%C2%AE_%7C_Claude_API-4B5563?style=flat-square)](https://www.linkedin.com/in/do-hoang-tuan-anh/details/certifications/)
+[![Certifications](https://img.shields.io/badge/Certifications-ISTQB%C2%AE_%7C_Claude_API-374151?style=flat-square)](https://www.linkedin.com/in/do-hoang-tuan-anh/details/certifications/)
 
 **English** | [Tiếng Việt](./README.vi.md)
 
@@ -13,71 +13,50 @@
 
 ---
 
-## About Me
+I have spent the last **8+ years in Software QA & Test Automation** (starting at **LogiGear** and **TMA Solutions** in 2018, and working at **Rakus Vietnam** since 2021). 
 
-I'm a QA Engineer with over 8 years of experience testing web, mobile, and enterprise software—starting out at **LogiGear** and **TMA Solutions** in 2018, and spending the last 5+ years at **Rakus Vietnam**.
+My main focus is building reliable E2E automation frameworks (**Playwright**, **Cypress**, **Selenide**, **Appium**), conducting security/vulnerability verification (**VEX testing**) for high-volume Japanese B2B SaaS products, and integrating practical **AI tooling** (**Claude API**, **Claude Code**, **Antigravity**, **Cursor**) into everyday QA workflows.
 
-Most of my day-to-day work revolves around building and maintaining test automation frameworks (mostly **Playwright** and **Cypress** in TypeScript, previously **Java/Selenide**, **Puppeteer**, and **C#/.NET**), running security/vulnerability checks (**VEX testing**) on high-volume Japanese B2B SaaS products, and helping manual testers make the jump into automation.
+<div align="center">
 
-Lately, I've been spending a lot of time figuring out how to make AI coding tools (**Claude Code**, **Claude API**, **Antigravity**, **Cursor**, **Ollama**) actually useful in real QA workflows—writing test generation prompts, reducing flaky locators, and fixing the OS/network bottlenecks that happen when you run heavy E2E suites alongside AI tools on Windows.
+| **8+ Years** | **-30% Regression Time** | **+25% E2E Delivery Speed** | **~10 QAs Mentored** |
+| :---: | :---: | :---: | :---: |
+| Hands-on QA across Web, Mobile, API & B2B SaaS | Achieved by replacing manual checks with structured automation | Improved release confidence & cycle time across product squads | Upskilled manual testers in TypeScript & AI prompts (+40% team output) |
 
-### A few things I've shipped at work:
-- **Cut regression testing time by ~30%** by replacing repetitive manual checks with structured automation frameworks across multiple product teams.
-- **Improved E2E delivery speed by ~25%** while maintaining strict release quality for Japanese enterprise clients.
-- **Mentored ~10 manual QA members** on writing TypeScript tests, reading code, and using prompts effectively—helping the team boost overall testing throughput by **~40%**.
-
----
-
-## What I Work With
-
-| Area | Tools & Languages |
-| :--- | :--- |
-| **Web & Mobile Automation** | Playwright, Cypress, Selenide, Selenium, Appium, Puppeteer, Mocha & Chai |
-| **API, Load & Security** | Postman, Apache JMeter (CLI / Non-GUI), VEX Security Testing, Risk-Based Testing |
-| **Languages & Scripting** | TypeScript, JavaScript, Java, C# (.NET), PowerShell, Python, Google Apps Script |
-| **AI & Agent Tooling** | Claude API, Claude Code, Antigravity, Cursor, Ollama, ISTQB CT-AI practices |
-| **CI/CD & Environment** | GitHub Actions, Jenkins, Docker, WSL2, Git, Maven, Windows 10/11 Internals |
+</div>
 
 ---
 
-## Work History
+## Featured Engineering Work & Repositories
 
-### **Rakus Vietnam Co., Ltd** *(Apr 2021 – Present)*
-- **Principal Test Engineer** *(Nov 2025 – Present)*
-  - Migrating legacy test suites over to **Playwright** and **Cypress** (TypeScript) and setting coding standards across product squads.
-  - Running internal R&D on AI-assisted test case generation, self-healing scripts, and faster defect triage.
-  - Mentoring QA engineers on modern automation and practical prompt engineering.
-- **Senior Software QA Engineer** *(May 2022 – Nov 2025)*
-  - **R-Denshihozon & R-Meisai** *(Electronic Storage & E-Invoicing SaaS)*: Built TypeScript + Cypress E2E tests and handled concurrency, update, and VEX security testing for high-volume financial document systems.
-  - **Mail Dealer** *(Business Email Web App — Team of 11)*: Maintained and expanded Java + Selenide regression suites.
-  - **Chat Dealer** *(Chatbot Web App)*: Wrote E2E and browser tests using JavaScript, Mocha, Chai, and Puppeteer; wrote Google Apps Script tools to automate database comparisons.
-- **Middle Software QA Engineer** *(Apr 2021 – Apr 2022)*
-  - Full-stack QA on **Chat Dealer**, covering module, integration, cross-browser, and VEX security tests from outline designs.
-
-### **TMA Solutions** *(Jul 2018 – Mar 2021)*
-- **Middle Software QA Engineer**
-  - Worked on Operational Risk & Incident Management products (**Control of Work / Sphera**, **Pink Squad**, **IMPACT**).
-  - Led a 4-person QA team, coordinated directly with the client's QA Account Manager, and wrote C# / .NET UI and API automation scripts.
-
-### **LogiGear Corporation** *(Jan 2018 – Jun 2018)*
-- **Fresher QA Engineer**
-  - Functional and automated regression testing on the **Halliburton** project.
+| Project | Problem & Solution | Stack |
+| :--- | :--- | :--- |
+| **[agentic-workstation-optimizer](https://github.com/AlexDo96/agentic-workstation-optimizer)**<br/>*Windows & Network Toolkit + AI Agent Skill* | Running parallel E2E tests (Playwright/Appium) alongside Cloud AI CLIs on corporate Windows machines often hits TCP ephemeral port exhaustion, VPN/SSL errors, and slow WSL2 networking.<br/>→ Built a set of PowerShell scripts & AI agent skills to safely tune OS/network limits, with automatic state backups and 1-command rollback (`-Mode Work` / `-Mode All`). | `PowerShell`<br/>`Windows Internals`<br/>`WSL2` · `Ollama`<br/>`Claude Code` |
+| **[Playwright_E2E](https://github.com/AlexDo96/Playwright_E2E)** & **[Playwright_QA](https://github.com/AlexDo96/Playwright_QA)**<br/>*Web E2E Test Architecture* | Keeping UI automation maintainable as web apps grow.<br/>→ Reference framework structured around a clean Page Object Model (`BasePage`, isolated modal components, and `global-setup` authentication hooks) running across Chromium, Firefox, and WebKit. | `TypeScript`<br/>`Playwright`<br/>`Node.js` |
+| **[Appium_E-Commerce](https://github.com/AlexDo96/Appium_E-Commerce)**<br/>*Mobile Automation Suite* | Automating core e-commerce user flows on Android.<br/>→ Covers end-to-end mobile shopping journeys, native/hybrid context switching, custom gesture handling, and centralized driver setup. | `Java`<br/>`Appium`<br/>`Maven` |
+| **[API_Testing_QA](https://github.com/AlexDo96/API_Testing_QA)**<br/>*API Contract & Workflow Tests* | Verifying multi-step backend flows before UI integration.<br/>→ Postman test suite demonstrating request chaining, dynamic environment variables, JSON schema checks, and negative test cases. | `Postman`<br/>`JavaScript`<br/>`REST API` |
 
 ---
 
-## Projects Worth Checking Out
+## Technical Stack & Focus Areas
 
-- **[agentic-workstation-optimizer](https://github.com/AlexDo96/agentic-workstation-optimizer)** *(PowerShell)*  
-  When running parallel Playwright/Appium tests and Cloud AI CLIs on a corporate Windows laptop, I kept running into TCP ephemeral port exhaustion, VPN/SSL errors, and sluggish WSL2 networking. I put together these PowerShell scripts (and an AI agent skill) to tune Windows network/hardware settings safely, with automatic backups and one-command rollback.
+- **Test Automation (Web & Mobile)**: Playwright, Cypress, Selenide, Selenium, Appium, Puppeteer, Mocha & Chai
+- **API, Performance & Security**: Postman, Apache JMeter (CLI / Non-GUI load testing), VEX Security Testing, Concurrency & Risk-Based Testing
+- **Languages & Scripting**: TypeScript, JavaScript, Java, C# (.NET), PowerShell, Python, Google Apps Script
+- **AI in QA & Tooling**: Claude API, Claude Code, Antigravity, Cursor, Local LLMs (`Ollama`), ISTQB CT-AI practices (test generation, self-healing locators, defect triage)
+- **CI/CD & Environment**: GitHub Actions, Jenkins, Docker, WSL2, Git, Maven, Windows 10/11
 
-- **[Playwright_E2E](https://github.com/AlexDo96/Playwright_E2E) & [Playwright_QA](https://github.com/AlexDo96/Playwright_QA)** *(TypeScript)*  
-  Clean examples of how I structure Playwright projects using the Page Object Model (`BasePage`, separate modal handlers, and global setup hooks).
+---
 
-- **[Appium_E-Commerce](https://github.com/AlexDo96/Appium_E-Commerce)** *(Java / Maven)*  
-  Android mobile automation project covering standard e-commerce user flows.
+## Career Snapshot
 
-- **[API_Testing_QA](https://github.com/AlexDo96/API_Testing_QA)** *(Postman)*  
-  API test collection covering request chaining, environment variables, schema checks, and negative test cases.
+| Period | Role & Company | Key Products & Scope |
+| :--- | :--- | :--- |
+| **2021 – Present**<br/>*(5+ years)* | **Principal Test Engineer** *(2025–Present)*<br/>**Senior / Middle QA Engineer** *(2021–2025)*<br/>**Rakus Vietnam Co., Ltd** | • Leading QA architecture with **Playwright & Cypress (TypeScript)** and AI-assisted testing R&D across squads.<br/>• **R-Denshihozon & R-Meisai** *(Electronic Storage & E-Invoicing SaaS)*: TypeScript/Cypress E2E, concurrency, and VEX security testing.<br/>• **Mail Dealer** *(Enterprise Email)*: Java + Selenide regression automation.<br/>• **Chat Dealer** *(Chatbot SaaS)*: JS/Puppeteer/Mocha E2E & Google Apps Script DB verification tools. |
+| **2018 – 2021**<br/>*(2 yrs 9 mos)* | **Middle Software QA Engineer**<br/>**TMA Solutions** | • Led a 4-member QA team on global Operational Risk & Incident Management products (**Control of Work / Sphera**, **Pink Squad**, **IMPACT**).<br/>• Wrote **C# / .NET** UI and API automation scripts and ran performance/deployment tests. |
+| **2018**<br/>*(6 mos)* | **Fresher QA Engineer**<br/>**LogiGear Corporation** | • Functional and automated regression testing for the **Halliburton** enterprise project. |
+
+> *Full project details and work history are available on my [LinkedIn profile](https://www.linkedin.com/in/do-hoang-tuan-anh/).*
 
 ---
 
